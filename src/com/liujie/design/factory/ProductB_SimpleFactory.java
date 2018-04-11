@@ -1,6 +1,6 @@
 package com.liujie.design.factory;
 
-import com.liujie.deisgn.abstactClass.Product_SimpleFactory;
+import com.liujie.deisgn.abstactClass.factory.Product_SimpleFactory;
 
 /** 
 * @ClassName: ProductB_SimpleFactory 

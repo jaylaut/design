@@ -1,8 +1,7 @@
-package com.liujie.design.inter.impl;
+package com.liujie.design.inter.impl.factory;
 
-import com.liujie.deisgn.abstactClass.Product_MethodFactory;
 import com.liujie.design.factory.ProductA_MethodFactory;
-import com.liujie.design.inter.MethodFactory;
+import com.liujie.design.inter.factory.MethodFactory;
 
 /** 
 * @ClassName: MethodFactory_CreateA 

@@ -1,6 +1,6 @@
-package com.liujie.design.CommonClass;
+package com.liujie.design.CommonClass.factory;
 
-import com.liujie.deisgn.abstactClass.Product_SimpleFactory;
+import com.liujie.deisgn.abstactClass.factory.Product_SimpleFactory;
 import com.liujie.design.factory.ProductA_SimpleFactory;
 import com.liujie.design.factory.ProductB_SimpleFactory;
 

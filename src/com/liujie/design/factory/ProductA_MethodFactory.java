@@ -1,6 +1,6 @@
 package com.liujie.design.factory;
 
-import com.liujie.deisgn.abstactClass.Product_MethodFactory;
+import com.liujie.deisgn.abstactClass.factory.Product_MethodFactory;
 
 /** 
 * @ClassName: ProductA_MethodFactory 

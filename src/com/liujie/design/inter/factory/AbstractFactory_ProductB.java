@@ -1,4 +1,4 @@
-package com.liujie.design.inter;
+package com.liujie.design.inter.factory;
 
 /** 
 * @ClassName: AbstractFactory_Product2 
@@ -7,6 +7,6 @@ package com.liujie.design.inter;
 * @date 2018年4月11日 上午11:19:20 
 *  
 */
-public interface AbstractFactory_Product2 {
+public interface AbstractFactory_ProductB {
 
 }

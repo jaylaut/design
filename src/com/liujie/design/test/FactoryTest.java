@@ -1,20 +1,24 @@
 package com.liujie.design.test;
 
-import com.liujie.deisgn.abstactClass.Product_SimpleFactory;
-import com.liujie.design.CommonClass.SimpleFactory;
+import com.liujie.deisgn.abstactClass.factory.Product_SimpleFactory;
+import com.liujie.design.CommonClass.factory.SimpleFactory;
 import com.liujie.design.factory.ProductA_MethodFactory;
 import com.liujie.design.factory.ProductB_MethodFactory;
-import com.liujie.design.inter.impl.MethodFactory_CreateA;
-import com.liujie.design.inter.impl.MethodFactory_CreateB;
+import com.liujie.design.inter.impl.factory.Factory_ProductA;
+import com.liujie.design.inter.impl.factory.Factory_ProductB;
+import com.liujie.design.inter.impl.factory.MethodFactory_CreateA;
+import com.liujie.design.inter.impl.factory.MethodFactory_CreateB;
 
 public class FactoryTest {
 
 	public static void main(String[] args) {
 		//简单工厂模式
-		//testSimpleFactory();
+		testSimpleFactory();
 		//工厂方式模式
-		testMethodFactory();
+		//testMethodFactory();
 
+		//抽象工厂模式
+		//testAbstractFactory();
 	}
 	
 	/** 
@@ -37,6 +41,17 @@ public class FactoryTest {
 		
 		MethodFactory_CreateB methodFactory_CreateB = new MethodFactory_CreateB();
 		ProductB_MethodFactory ProductB_MethodFactory = methodFactory_CreateB.createProduct_MethodFactory();
+	}
+	
+	public static void testAbstractFactory(){
+		Factory_ProductA factory_ProductA = new Factory_ProductA();
+		factory_ProductA.createAbstractFactory_ProductA();
+		factory_ProductA.createAbstractFactory_ProductB();
+		
+		Factory_ProductB factory_ProductB = new Factory_ProductB();
+		factory_ProductB.createAbstractFactory_ProductA();
+		factory_ProductB.createAbstractFactory_ProductB();
+		
 	}
 
 }

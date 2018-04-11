@@ -1,4 +1,4 @@
-package com.liujie.deisgn.abstactClass;
+package com.liujie.deisgn.abstactClass.factory;
 
 /** 
 * @ClassName: Product_SimpleFactory 
