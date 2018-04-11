@@ -29,12 +29,14 @@ public class FactoryTest {
 	* @throws 
 	* @author
 	*/
+	@SuppressWarnings("unused")
 	public static void testSimpleFactory(){
 		SimpleFactory simpleFactory = new SimpleFactory();
 		Product_SimpleFactory productA_SimpleFactory = simpleFactory.createProduct(1);
 		Product_SimpleFactory productB_SimpleFactory = simpleFactory.createProduct(2);
 	}
 	
+	@SuppressWarnings("unused")
 	public static void testMethodFactory(){
 		MethodFactory_CreateA methodFactory_CreateA = new MethodFactory_CreateA();
 		ProductA_MethodFactory productA_MethodFactory = methodFactory_CreateA.createProduct_MethodFactory();
