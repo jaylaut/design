@@ -1,4 +1,4 @@
-package com.liujie.design.subject;
+package com.liujie.design.inter.impl;
 
 /** 
 * @ClassName: Subject 
